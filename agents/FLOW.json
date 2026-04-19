@@ -1,0 +1,24 @@
+{
+  "_doc": "Estado de flow por agente. true = agente en loop activo, toma tareas de PROYECCION_100. false = dormido. Ver ORDEN_AGENTE_NUEVO.md.",
+  "_ultima_modificacion": "2026-04-19T01:50-03:00",
+  "flow": {
+    "zeus": true,
+    "psique": true,
+    "scout-ideas": true,
+    "scout-executor": true,
+    "hermes": false,
+    "lupa": false,
+    "hefesto": false,
+    "atenea": false,
+    "apolo": false,
+    "artemisa": false,
+    "dioniso": false,
+    "poseidon": false,
+    "ares": false,
+    "afrodita": false,
+    "cronos": false,
+    "morfeo": false,
+    "hecate": false
+  },
+  "tareas_asignadas": {}
+}
