@@ -77,7 +77,7 @@ Cambios que NO tocan `.gd` ni `.tscn` (solo docs, CSV, JSON, markdown) pueden pu
 
 ## 5. Reglas vivas del panteón
 
-- **🔒 Freeze de cartas** (2026-04-18): nadie agrega filas a `project/data/cards.csv` hasta aviso de Antonio. Balance/rework sí, cartas nuevas no.
+- **⏸️ FREEZE DE CARTAS (REFORZADO 2026-04-19)**: **NINGÚN agente** agrega filas a `project/data/cards.csv`. Ver `agents/FREEZE.md`. Violaciones → rollback automático + log en `ERRORS.md`. Balance/rework/flavor de cartas existentes sí. Reliquias/enemigos/eventos/pociones/keywords/specs sí. Cartas nuevas: **NO**.
 - **🎨 Foco UX/encuadre** (2026-04-19): cada recuadro alineado, scroll suave, `Tween.TRANS_QUART + EASE_OUT` consistente.
 - **🪢 Tipos explícitos** siempre. Si `var x := dict.get(...)` crashea el parser → `var x: Tipo = dict.get(...)`.
 - **📦 Tu branch**: `feat/<tu_id>-<slug>` para código. Docs/datos directo a `main` de NUEVO.

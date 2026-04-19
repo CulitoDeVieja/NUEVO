@@ -141,7 +141,7 @@ Hermes, al procesar el reporte, lo mueve a `inbox/archive/<año>/<mes>/` para no
 
 ## Directivas vivas de Antonio
 
-- **2026-04-18 — Freeze de cartas nuevas.** Ningún agente agrega cartas a `cards.csv` hasta nuevo aviso. Balance, rework de cartas existentes, keywords, reliquias, enemigos: OK. Cartas nuevas: NO. `game-designer` enfoca en balance + ajustes.
+- **2026-04-18 — Freeze de cartas nuevas (REFORZADO 2026-04-19).** ⏸️ **NINGÚN agente** agrega filas a `project/data/cards.csv` hasta aviso explícito de Antonio. Ver `agents/FREEZE.md` para el detalle: qué sí / qué no / cómo proponer ideas sin crearlas. Balance, rework de cartas existentes, reliquias, enemigos, eventos, pociones, keywords, mecánicas, specs: todo OK. Cartas nuevas: **NO**. Violaciones → rollback por Zeus + registro en `ERRORS.md`.
 - **2026-04-19 — Foco total: UX, renderizado, encuadre perfecto.** Todos los agentes priorizan:
   - **Cada recuadro (Panel/Button/Container) debe estar alineado y con padding simétrico.** Ver `CardView.gd` como referencia de lo que debe funcionar 1:1.
   - **Todo se desliza suave.** Scroll con inercia, transiciones con easing, nada de cortes secos.
